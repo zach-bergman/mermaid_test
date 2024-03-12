@@ -17,7 +17,7 @@ describe Mermaid do
     expect(mermaid.age).to eq 22
   end
   
-  xit 'has can get older' do
+  it 'has can get older' do
     mermaid = Mermaid.new('Sereia')
     mermaid.get_older
     expect(mermaid.age).to eq 23

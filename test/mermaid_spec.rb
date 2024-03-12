@@ -12,7 +12,7 @@ describe Mermaid do
     expect(mermaid.name).to eq 'Sereia'
   end
   
-  xit 'has an age' do
+  it 'has an age' do
     mermaid = Mermaid.new('Sereia')
     expect(mermaid.age).to eq 22
   end

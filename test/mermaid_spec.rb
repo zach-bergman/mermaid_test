@@ -1,5 +1,5 @@
 require 'rspec'
-require '../lib/mermaid'
+require './lib/mermaid'
 
 describe Mermaid do
   it 'is an instance of mermaid' do
@@ -7,7 +7,7 @@ describe Mermaid do
     expect(mermaid).to be_a Mermaid
   end
 
-  xit 'has a name' do
+  it 'has a name' do
     mermaid = Mermaid.new('Sereia')
     expect(mermaid.name).to eq 'Sereia'
   end
